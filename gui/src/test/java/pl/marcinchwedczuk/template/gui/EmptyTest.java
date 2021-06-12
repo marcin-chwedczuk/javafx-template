@@ -1,4 +1,4 @@
-package pl.marcinchwedczuk.javafx.validation.demo;
+package pl.marcinchwedczuk.template.gui;
 
 import org.junit.jupiter.api.Test;
 
