@@ -3,7 +3,7 @@ name: Build and run tests (CI)
 on:
   push:
     # On which branch
-    branches: ["master"]
+    branches: ["main"]
     # On which files
     # paths: ["scripts/scripts.js", "styles/styles.scss"]
   schedule:
