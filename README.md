@@ -1,5 +1,12 @@
 # JavaFX Opinionated Application Template
 
+* Created for JDK 11+, with Java 9 modules support
+* Multi-module Maven project by default
+* Sass used instead of CSS
+* assertJ and jUnit 5 used for unit testing
+* TestFX used for integration testing
+* Example GitHub action that builds the project and runs integration tests in headless mode
+
 ### How to run application
 ```
 ./mvnw javafx:run -pl gui
@@ -44,7 +51,7 @@ _JAVA_OPTIONS="-Djava.awt.headless=true \
 -Dprism.verbose=true" ./mvnw verify -Dskip.integration.tests=false -pl gui 
 ```
 
-On macOS you must allow IntelliJ or the terminal app, that you are using,
+On macOS you must allow IntelliJ or the terminal app that you are using,
 to "take over your computer":
 ![macOS settings needed for IT](docs/macOS-it-perm.png)
 
