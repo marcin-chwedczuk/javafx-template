@@ -2,7 +2,7 @@
 
 ![Build Status](https://github.com/marcin-chwedczuk/javafx-template/actions/workflows/ci.yaml/badge.svg)
 
-* Created for JDK 11+, with Java 9 modules support
+* Created for JDK 17+, with Java 9 modules support
 * Multi-module Maven project by default
 * Sass used instead of CSS
 * assertJ and jUnit 5 used for unit testing
