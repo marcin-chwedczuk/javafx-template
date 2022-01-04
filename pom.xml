@@ -26,14 +26,14 @@
         <javafx.version>17.0.1</javafx.version>
 
         <!-- Versions of test dependencies -->
-        <junit.version>5.6.2</junit.version>
-        <assertj.version>3.16.1</assertj.version>
+        <junit.version>5.8.2</junit.version>
+        <assertj.version>3.22.0</assertj.version>
         <testfx.version>4.0.16-alpha</testfx.version>
         <openjfx-monocle.version>jdk-12.0.1+2</openjfx-monocle.version>
 
         <!-- Versions of plugins -->
         <maven-compiler.plugin.version>3.8.1</maven-compiler.plugin.version>
-        <maven-resources.plugin.version>3.0.2</maven-resources.plugin.version>
+        <maven-resources.plugin.version>3.2.0</maven-resources.plugin.version>
         <maven-surefire.plugin.version>3.0.0-M5</maven-surefire.plugin.version>
         <maven-failsafe.plugin.version>3.0.0-M5</maven-failsafe.plugin.version>
 
