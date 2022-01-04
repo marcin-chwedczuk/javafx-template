@@ -31,5 +31,13 @@ public class MainWindowIT {
         // to learn how to test.
         assertThat(robot.lookup(".button").queryButton())
                 .hasText("Click me!");
+
+        assertThat(robot.lookup("#label").queryLabeled())
+                .hasText("'Hello, world!'");
+
+        robot.clickOn(robot.lookup(".button").queryButton());
+
+        assertThat(robot.lookup("#label").queryLabeled())
+                .hasText("Clicked!!!");
     }
 }

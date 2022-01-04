@@ -1,5 +1,6 @@
 package pl.marcinchwedczuk.template.gui.mainwindow;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -39,5 +40,10 @@ public class MainWindow implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         label.setText(Util.quote("Hello, world!"));
+    }
+
+    @FXML
+    private void clicked() {
+        label.setText("Clicked!!!");
     }
 }

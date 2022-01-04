@@ -10,7 +10,7 @@
       fx:controller="pl.marcinchwedczuk.template.gui.mainwindow.MainWindow"
       fx:id="mainWindow">
     <children>
-        <Button>Click me!</Button>
+        <Button onAction="#clicked">Click me!</Button>
         <Label fx:id="label" />
     </children>
 </VBox>
